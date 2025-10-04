@@ -24,14 +24,19 @@ function Footer() {
           >
             <img src={assets.ig} alt="instagram-logo" className='w-4 sm:w-5' />
           </a>
-            <a
+          <a
             href="https://github.com/ADR-projects/literary-club-site"
             rel="noopener noreferrer"
             className=""
           >
             <img src={assets.githubyellow} alt="github-logo" className='w-4 sm:w-6' />
           </a>
-          <span>Contact Us</span>
+          <a href="mailto:literary.club.gnit@gmail.com?subject=Query%20from%20Website&body=Hi Club!%20Lit%20Club%20Team,%0A%0Aliterary.club.gnit@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="">
+            <span>Contact Us</span>
+          </a>
         </div>
       </div>
       <p className="text-center text-[8px] text-subtext">Copyright © 2025 GNIT Literary Club - All Rights Reserved.</p>
