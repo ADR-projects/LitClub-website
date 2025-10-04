@@ -5,6 +5,7 @@ function Magazine() {
       <h2 className="text-4xl font-serif text-textcolor mb-12 text-center">Read this year's issue</h2>
       <a
         href="https://online.fliphtml5.com/smtnf/tsqh/"
+        target="_blank"
         className="block bg-primary border border-[#3d2f1f] hover:border-textcolor transition-colors overflow-hidden group"
       >
         <div className="aspect-auto bg-[#2a1f15] flex items-center justify-center">
