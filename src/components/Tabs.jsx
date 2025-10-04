@@ -1,4 +1,6 @@
+import { useNavigate } from 'react-router-dom'
 function Tabs({ activeTab, setActiveTab }) {
+  const navigate = useNavigate(); 
   const tabs = ['home', 'magazine', 'featured', 'events', 'links'];
 
   return (
@@ -8,7 +10,10 @@ function Tabs({ activeTab, setActiveTab }) {
           {tabs.map((tab) => (
             <button
               key={tab}
-              onClick={() => setActiveTab(tab)}
+              onClick={() => {
+                setActiveTab(tab)
+                navigate(`/${tab}`)
+              }}
               className={`px-4 md:px-6 py-4 text-sm md:text-base uppercase tracking-wider transition-colors ${
                 activeTab === tab
                   ? 'text-textcolor border-b-2 border-textcolor'
