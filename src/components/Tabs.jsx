@@ -1,8 +1,12 @@
-import { useNavigate } from 'react-router-dom'
-function Tabs({ activeTab, setActiveTab }) {
+import { useNavigate, useLocation  } from 'react-router-dom'
+
+function Tabs() {
   const navigate = useNavigate(); 
+   const location = useLocation();
   const tabs = ['home', 'magazine', 'featured', 'events', 'links'];
 
+  const currentPath = location.pathname.slice(1)
+  const activeTab = tabs.includes(currentPath) ? currentPath : 'home'
   return (
     <nav className="sticky top-0 bg-statusbars border-b border-ternary z-10">
       <div className="max-w-7xl mx-auto px-6">
@@ -10,10 +14,9 @@ function Tabs({ activeTab, setActiveTab }) {
           {tabs.map((tab) => (
             <button
               key={tab}
-              onClick={() => {
-                setActiveTab(tab)
+              onClick={() => 
                 navigate(`/${tab}`)
-              }}
+              }
               className={`px-4 md:px-6 py-4 text-sm md:text-base uppercase tracking-wider transition-colors ${
                 activeTab === tab
                   ? 'text-textcolor border-b-2 border-textcolor'
