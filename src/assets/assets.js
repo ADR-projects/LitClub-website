@@ -5,6 +5,8 @@ import github from './ghwhite.svg'
 import githubyellow from './ghyellow.svg'
 import mail from './mail.svg'
 import star from './star.svg'
+import ham from './hammenu.svg'
+import hamop from './hammenuopen.svg'
 import cover1 from './cover1crop.jpg'
 import logo from './clublogo.jpg'
 import ig from './ig.svg'
@@ -20,6 +22,8 @@ export const assets = {
     githubyellow,
     mail,
     star,
+    ham,
+    hamop,
     cover1,
     logo,
     ig
