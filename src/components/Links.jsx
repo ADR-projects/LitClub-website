@@ -60,7 +60,7 @@ function Links() {
       
       <div className="text-center">
         <a
-          href="https://github.com/ADR-projects/Lit-Club-website"
+          href="https://github.com/ADR-projects/literary-club-site"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center space-x-3 bg-primary border border-[#3d2f1f] hover:border-textcolor px-8 py-4 transition-colors group"
