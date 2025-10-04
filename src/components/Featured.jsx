@@ -5,7 +5,9 @@ function Featured() {
     <div>
       <h2 className="text-4xl font-serif text-textcolor mb-12 text-center">Featured Pieces</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
         {featured.map((item) => (
+          <a key={item.link} href={item.link} target="_blank">
           <div
             key={item.title}
             className="bg-primary border border-[#3d2f1f] hover:border-textcolor transition-colors cursor-pointer group"
@@ -18,6 +20,8 @@ function Featured() {
               <p className="text-subtext text-sm leading-relaxed">{item.description}</p>
             </div>
           </div>
+         </a>
+          
         ))}
       </div>
     </div>
