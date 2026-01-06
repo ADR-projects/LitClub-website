@@ -57,6 +57,28 @@ function Links() {
 
       </div>
 
+      <div>
+        <h2 className="text-3xl font-serif text-textcolor mb-8 text-center">Follow Our Socials</h2>
+        <div className="flex justify-center space-x-6">
+          <a
+            href="https://www.instagram.com/literary.club.gnit/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-primary border border-[#3d2f1f] hover:border-textcolor p-4 transition-colors"
+          >
+            <img src={assets.ig} alt="instagram-logo" className='w-8 sm:w-10' />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/literary-club-gnit/?viewAsMember=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-primary border border-[#3d2f1f] hover:border-textcolor p-4 transition-colors"
+          >
+            <img src={assets.linkedin} alt="linkedin-logo" className='w-8 sm:w-10' />
+          </a>
+        </div>
+      </div>
+
       
       <div className="text-center">
         <a

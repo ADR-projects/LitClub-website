@@ -9,6 +9,7 @@ import Events from './components/Events';
 import Links from './components/Links';
 import Footer from './components/Footer';
 import { assets } from './assets/assets'
+import './index.css';
 
 function App() {
   const [activeTab, setActiveTab] = useState('home');
