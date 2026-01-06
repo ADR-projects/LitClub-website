@@ -2,7 +2,7 @@ import {assets} from '../assets/assets'
 function Hero() {
   return (
      <header
-      className="headerimg border-b border-[#3d2f1f] bg-cover bg-center bg-no-repeat"
+      className="z-10 headerimg border-b border-[#3d2f1f] bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${assets.heroimg})` }}
     >
       <div className=" max-w-7xl mx-auto px-6 py-16 text-center">
