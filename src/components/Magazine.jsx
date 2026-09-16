@@ -2,7 +2,7 @@ import {assets} from '../assets/assets'
 function Magazine() {
   return (
     <div className="max-w-2xl mx-auto">
-      <h2 className="text-4xl font-serif text-textcolor mb-12 text-center">Read this year's issue</h2>
+      <h2 className="text-4xl font-serif text-textcolor mb-12 text-center">Read the 2025 issue</h2>
       <a
         href="https://online.fliphtml5.com/smtnf/tsqh/"
         target="_blank"

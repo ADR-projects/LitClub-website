@@ -11,6 +11,9 @@ import Footer from './components/Footer';
 import { assets } from './assets/assets'
 import './index.css';
 import ParticlesComponent from './components/Particle';
+import Showcase from './components/Showcase';
+import Announcements from './components/Announcements';
+import People from './components/People';
 
 function App() {
   const [activeTab, setActiveTab] = useState('home');
@@ -33,6 +36,9 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/magazine" element={<Magazine />} />
               <Route path="/featured" element={<Featured />} />
+              <Route path="/showcase" element={<Showcase />} />
+              <Route path="/announcements" element={<Announcements />} />
+              <Route path="/people" element={<People />} />
               <Route path="/events" element={<Events />} />
               <Route path="/links" element={<Links />} />
             </Routes>

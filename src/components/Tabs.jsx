@@ -7,7 +7,7 @@ function Tabs() {
   const location = useLocation();
 
   const [isOpen, setIsOpen] = useState(false);
-  const tabs = ['home', 'magazine', 'featured', 'events', 'links'];
+  const tabs = ['home', 'magazine', 'featured', 'showcase', 'events', 'announcements',  'people', 'links'];
 
   const currentPath = location.pathname.slice(1)
   const activeTab = tabs.includes(currentPath) ? currentPath : 'home'
