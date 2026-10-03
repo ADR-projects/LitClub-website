@@ -28,6 +28,7 @@ import eva from './interview101.png'
 import eva3 from './women.png'
 import eva2 from './poem.png'
 import eva1 from './oneline.png'
+import rybak from './debate9.jpeg'
 
 export const assets = {
   heroimg,
@@ -125,6 +126,14 @@ export const contests = [
 export const announcements = [
   
    {
+    title: 'In-House Oxford Debate',
+    imgLink: rybak,
+    date: 'October 9, 2026',
+    description: "Are you ready to defend an idea—or challenge one? Join the GNIT Literary Club for an In-House Oxford Debate Contest and put your reasoning, research, argumentation, and speaking skills to the test. No prior debating experience required! 📅 9th October 2026 | 🕑 From 2:00 PM | 📍 Language Lab–I, GNIT.",
+    onClick: 'https://www.instagram.com/p/DeBxmyiCbAH/'
+  },
+  
+  {
     title: 'Interviews 101: Job Interview Survival Guide with Mr. Anurag Bhattacharjee',
     imgLink: ev6,
     date: 'September 6, 2026',
