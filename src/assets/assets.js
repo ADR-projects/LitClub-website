@@ -28,6 +28,9 @@ import eva from './interview101.png'
 import eva3 from './women.png'
 import eva2 from './poem.png'
 import eva1 from './oneline.png'
+import rybak from './debate9.jpeg'
+import rik from './debate.jpg'
+import riki from './flyer.jpg'
 
 export const assets = {
   heroimg,
@@ -66,6 +69,15 @@ export const featured = [
 ];
 export const events = [
 
+  {
+    title: 'In-House Oxford Debate',
+    imgLink: rik,
+    date: 'October 9, 2026',
+    venue: 'Language Lab II',
+    description: 'The GNIT Literary Club organised an engaging In-House Oxford Debate Contest, encouraging students to challenge ideas, test arguments, and explore diverse perspectives through critical thinking and persuasive rhetoric. The event celebrated the participants’ confidence, reasoning, and public-speaking skills while recognising the winners and appreciating the judges and everyone who contributed to its success.',
+    onClick: 'https://www.instagram.com/p/DeZyOGpkyLu/?img_index=1'
+  },
+  
   {
     title: 'Interviews 101: Job Interview Survival Guide with Mr. Anurag Bhattacharjee',
     imgLink: eva,
@@ -124,7 +136,23 @@ export const contests = [
 
 export const announcements = [
   
-   {
+  {
+    title: 'GEEK-O-WEEN 2K26',
+    imgLink: riki,
+    date: 'November 6, 2026',
+    description: "The GNIT Literary Club invites students to GEEK-O-WEEN 2K26, a Halloween celebration featuring villain cosplay, quizzes, music, creative model displays, and more! Students can participate in exciting activities, showcase their creativity, and enjoy a spooky day of fun. Entry is free, and registration is open to all. 🎃👻",
+    onClick: 'https://www.instagram.com/p/DfGbhBzxMbi/'
+  },
+  
+  {
+    title: 'In-House Oxford Debate',
+    imgLink: rybak,
+    date: 'October 9, 2026',
+    description: "Are you ready to defend an idea—or challenge one? Join the GNIT Literary Club for an In-House Oxford Debate Contest and put your reasoning, research, argumentation, and speaking skills to the test. No prior debating experience required! 📅 9th October 2026 | 🕑 From 2:00 PM | 📍 Language Lab–I, GNIT.",
+    onClick: 'https://www.instagram.com/p/DeBxmyiCbAH/'
+  },
+  
+  {
     title: 'Interviews 101: Job Interview Survival Guide with Mr. Anurag Bhattacharjee',
     imgLink: ev6,
     date: 'September 6, 2026',
@@ -204,3 +232,5 @@ export const studentcore = [
     position: 'Social Media Coordinator'
   },
 ];
+
+//npm run dev
