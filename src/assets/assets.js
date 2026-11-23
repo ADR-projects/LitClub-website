@@ -31,6 +31,7 @@ import eva1 from './oneline.png'
 import rybak from './debate9.jpeg'
 import rik from './debate.jpg'
 import riki from './flyer.jpg'
+import niki from './mohuli.jpeg'
 
 export const assets = {
   heroimg,
@@ -223,6 +224,13 @@ export const studentcore = [
     imgLink: arpan,
     designation: 'CSE, 3rd Year',
     position: 'Events and Presentations Head'
+  },
+
+   {
+    name: 'Mohuli Pal',
+    imgLink: niki,
+    designation: 'CSE, 3rd Year',
+    position: 'Public and Social Relations Head'
   },
 
   {
